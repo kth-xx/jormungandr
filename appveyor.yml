@@ -77,7 +77,7 @@ branches:
 
 notifications:
   - provider: Email
-    on_build_success: false
+    on_build_success: true
 
 # Building is done in the test phase, so we disable Appveyor's build phase.
 build: true
